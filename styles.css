@@ -17,7 +17,7 @@ body {
 }
 
 main {
-    max-width: 22rem;
+    max-width: 23rem;
     border: 1px solid hsl(0, 0%, 7%);
     box-shadow: 8px 8px hsl(0, 0%, 7%);
     padding: 1.2rem;
@@ -25,8 +25,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    background-color: hsl(0, 0%, 100%);
-    
+    background-color: hsl(0, 0%, 100%);   
 }
 
 img {
@@ -55,6 +54,20 @@ figure > img {
 h2, figcaption, .learning {
     font-weight: 800;
     color: hsl(0, 0%, 7%);
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h2 > a {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+}
+
+h2 > a:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 
 .publish-date {
